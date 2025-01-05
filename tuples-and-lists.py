@@ -11,3 +11,5 @@ print(a_list[2][0])
 
 print(a_list + exList)
 
+a_list.sort()
+print(a_list)
