@@ -1,10 +1,11 @@
 import numpy as np
+import os
 
 a = np.array([1,-1])
 b = np.array([1,1])
 
-# print(a*b)
-# print(np.dot(a,b))
+print(a*b)
+print(np.dot(a,b))
 
 a = np.array([0,1,2,3,4])
 
@@ -67,3 +68,9 @@ v = np.array([0,1])
 
 z = np.add(u, v)
 print("Sum of arrays:", z)
+
+os.system('cls')
+
+a = np.array([0,1])
+b = np.array([1,0])
+print(np.dot(a,b))
